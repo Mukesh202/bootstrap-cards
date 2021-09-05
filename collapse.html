@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>My collapse</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="collapse.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1> collapse and accordian</h1>
+            <div class="row py-3 justify-content-center">
+                <div class="col-md-8">
+                    <div class="accordion" id="accordionexample">
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link btn-block btn primary text-left"
+                                  data-toggle="collapse" data-target="#collapseone">
+                                    heading no.1
+                                </button> 
+                                <div id="myCollapse" class="collapse">
+                                    <div class="card crad-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Hic ex nemo omnis aliquid voluptas sit 
+                                        commodieum voluptatem nostrum atque.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button  class="btn btn-block btn-info mb-3" data-toggle="collapse" data-target="#myCollapse">
+                        About us</button>
+                        
+                        <div id="myCollapse" class="collapse">
+                            <div class="card crad-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Hic ex nemo omnis aliquid voluptas sit 
+                                commodieum voluptatem nostrum atque.</div>
+                        </div>
+                        <div id="myCollapse" class="collapse">
+                            <div class="card crad-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Hic ex nemo omnis aliquid voluptas sit 
+                                commodi eum voluptatem nostrum atque.</div>
+                        </div>
+                        <div id="myCollapse" class="collapse">
+                            <div class="card crad-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Hic ex nemo omnis aliquid voluptas sit 
+                                commodi eum voluptatem nostrum atque.</div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
